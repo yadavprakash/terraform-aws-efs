@@ -24,7 +24,7 @@ module "subnets" {
   environment        = local.environment
   label_order        = local.label_order
   availability_zones = local.availability_zones
-  vpc_id             = module.vpc.vpc_id
+  vpc_id             = module.vpc.id
   cidr_block         = module.vpc.vpc_cidr_block
   type               = "public"
   igw_id             = module.vpc.igw_id
@@ -37,7 +37,7 @@ module "efs" {
   environment               = "test"
   creation_token            = "changeme"
   availability_zones        = local.availability_zones
-  vpc_id                    = module.vpc.vpc_id
+  vpc_id                    = module.vpc.id
   subnets                   = module.subnets.public_subnet_id
   security_groups           = [module.vpc.vpc_default_security_group_id]
   efs_backup_policy_enabled = true
