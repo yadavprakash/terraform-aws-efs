@@ -16,7 +16,7 @@ To use this module, include it in your Terraform configuration.
 Example
 ```hcl
 module "efs" {
-  source                  = "git::https://github.com/opsstation/terraform-aws-efs.git?ref=v1.0.0"
+source                  = "git::https://github.com/opsstation/terraform-aws-efs.git?ref=v1.0.0"
 name                      = "efs"
 environment               = "test"
 creation_token            = "changeme"
