@@ -38,7 +38,7 @@ availability_zone_name = ["us-west-1a", "us-west-1"]
 For detailed examples on how to use this module, please refer to the [examples](https://github.com/opsstation/terraform-aws-efs/tree/master/_example) directory within this repository.
 
 ## License
-This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/opsstation/terraform-aws-ec2/blob/master/LICENSE) file for more details.
+This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/opsstation/terraform-aws-efs/blob/master/LICENSE) file for more details.
 
 ## Author
 Your Name
