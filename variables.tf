@@ -20,8 +20,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "yadavprakash"
+  description = "ManagedBy, eg 'yadavprakash'."
 }
 
 # Module      : EFS
